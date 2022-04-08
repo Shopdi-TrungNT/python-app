@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: trung-python
-        image: nhlinh/python:latest
+        image: trungtien/python:latest
         ports:
         - containerPort: 1313
 
