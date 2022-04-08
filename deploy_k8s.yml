@@ -16,7 +16,11 @@ spec:
       - name: trung-python
         image: trungtien/python:latest
         ports:
-        - containerPort: 1313
+        - containerPort: 5000
+        resources:
+          limits:
+            cpu: "200m" 
+            memory: "80Mi"
 
 ---
 apiVersion: v1
